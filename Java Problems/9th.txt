@@ -1,1 +1,15 @@
+///Sum of all numbers from 1 to N
+import java.util.Scanner;
 
+public class main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        int number = input.nextInt();
+        long result = 0;
+        for (int i = 1; i <= number; i++) {
+            result += i;
+        }
+        System.out.println("Sum = " + result);
+    }
+}
