@@ -1,1 +1,22 @@
+/// Find the maximum of 3 numbers: Take 3 numbers from user input, print the largest.
+import java.util.Scanner;
+
+public class main {
+      public static void main(String[] args) {
+        Scanner Number = new Scanner(System.in);
+        int a = Number.nextInt();
+        int b = Number.nextInt();
+        int c = Number.nextInt();
+
+        if (a > b && a > c)
+            System.out.println("Largest number = " + a);
+
+        else if (b > a && b > c)
+            System.out.println("Largest number = " + b);
+
+        else
+            System.out.println("Largest number = " + c);
+
+    }
+}
 
