@@ -1,1 +1,24 @@
 
+/// Simple Calculator (Add, Subtract, Multiply, Divide): Use if-else or switch to perform operations.
+import java.util.Scanner;
+
+public class main {
+
+    public static void main(String[] args) {
+        Scanner Number = new Scanner(System.in);
+        int a = Number.nextInt();
+        int b = Number.nextInt();
+
+        int sum = a + b;
+        int substract = a - b;
+        int multiply = a * b;
+        double divide = (double)a / b;
+
+        System.out.println("Add = " + sum);
+        System.out.println("Substract = " + substract);
+        System.out.println("Multiply = " + multiply);
+        System.out.println("Divide = " + divide);
+
+    }
+}
+
