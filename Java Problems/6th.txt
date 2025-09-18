@@ -1,1 +1,13 @@
+/// Print numbers from 1 to N, Take N from user input.
+import java.util.Scanner;
 
+public class main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        int N = input.nextInt();
+        for (int i = 1; i <= N; i++) {
+            System.out.println(i);
+        }
+    }
+}
