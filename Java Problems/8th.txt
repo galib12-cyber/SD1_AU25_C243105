@@ -1,1 +1,17 @@
+/// Calculate factorial of a number. Example: 5! = 5 × 4 × 3 × 2 × 1 = 120
+import java.util.Scanner;
+
+public class main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        int result = 1;
+        int N = input.nextInt();
+        for (int i = N; i >= 1; i--) {
+            result = i * result;
+        }
+
+        System.out.println(N + "! = " + result);
+    }
+}
 
