@@ -6,6 +6,6 @@ Name: Mohammad Shajidul Hoque Galib
 
 ID: C243105
 
-Section: 2AM
+Section: 3AM
 
-Semester: 2
+Semester: 3
